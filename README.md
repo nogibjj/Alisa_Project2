@@ -12,5 +12,11 @@ We will receive the message "Let's know about the history of art! Enter the year
 ## Steps
 
 Build the bash command line.
+
 Build the dockerfile.
-Push the docker.
+
+Push the docker file.
+
+Pull the docker file. 
+
+Run the file in Cloud 9.
