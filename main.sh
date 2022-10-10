@@ -7,7 +7,7 @@ then
     cat $file | while read line
     do
         echo $line
-        if [ $line -gt 1990]
+        if [ $line -gt 1990 ]
         then
             echo "Contemporary"
         else
