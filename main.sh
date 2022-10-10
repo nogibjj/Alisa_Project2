@@ -18,10 +18,22 @@ then
         elif [ $line -gt 1750 -a $line -lt 1850 ]
         then
             echo "Neoclassicism"
+        elif [ $line -gt 1850 -a $line -lt 1900 ]
+        then
+            echo "Realism"
+        elif [ $line -gt 1900 -a $line -lt 1935 ]
+        then
+            echo "Fauvism"
+        elif [ $line -gt 1935 -a $line -lt 1950 ]
+        then
+            echo "Expressionism"
+        elif [ $line -gt 1950 -a $line -lt 2022 ]
+        then
+            echo "Contemporary Art"
         else
-            echo "Ancient"
+            echo "Not included in this timeline"
         fi
     done
 else
-    echo "$year does not exist"
+    echo "$year not included in this timeline"
 fi
