@@ -12,10 +12,10 @@ then
         if [ $line -gt 1400 -a $line -lt 1600 ]
         then
             echo "Renaissance"
-        if [ $line -gt 1600 -a $line -lt 1750 ]
+        elif [ $line -gt 1600 -a $line -lt 1750 ]
         then
             echo "Baroque"
-        if [ $line -gt 1750 -a $line -lt 1850 ]
+        elif [ $line -gt 1750 -a $line -lt 1850 ]
         then
             echo "Neoclassicism"
         else
