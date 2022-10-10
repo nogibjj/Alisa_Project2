@@ -23,5 +23,5 @@ then
         fi
     done
 else
-    echo "$file does not exist"
+    echo "$year does not exist"
 fi
